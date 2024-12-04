@@ -69,10 +69,7 @@
 
 /* playlist header */
 #playlist-header {
-    padding: 20px;
-
-    width: 100%;
-    background-color: aqua;
+    padding: 10px 20px 10px 20px;
 }
 
 #playlist-header h5 {
@@ -80,10 +77,14 @@
 }
 
 #playlist-header span {
-    font-size: 50px;
+    font-size: 30px;
+    margin-right: 10px;
 }
 
 #playlist-header p {
+    display: flex;
+    align-items: center;
+    color: #76797d;
     font-size: 10px;
     font-weight: 700;
 }
@@ -215,7 +216,15 @@
         justify-content: center;
     }
 
+    #side-main-nav img {
+        margin: 5px;
+    }
+
     #side-main-nav span {
+        display: none;
+    }
+
+    #playlist-header {
         display: none;
     }
 
