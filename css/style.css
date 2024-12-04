@@ -34,7 +34,6 @@
 }
 
 #fside-main-nav {
-    padding: 15px;
     display: flex;
     flex-direction: column;
 }
@@ -46,16 +45,21 @@
     font-weight: 700;
     color: #76797d;
     font-size: 10px;
-    padding: 5px;
+    border-left: 2px solid black;
+    padding: 5px 20px 5px 18px;
+}
+
+#fside-main-nav a:hover {
+    color: white;
+}
+
+#fside-main-nav a:active {
+    border-left: 2px solid #a2ef2c;
 }
 
 #fside-main-nav img {
-    width: 30px;
-}
-
-/* mobile side nav */
-#mobile-side-nav {
-    display: none;
+    width: 25px;
+    margin-right: 5px;
 }
 
 
