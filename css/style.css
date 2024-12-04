@@ -67,6 +67,27 @@
     margin-right: 5px;
 }
 
+/* playlist header */
+#playlist-header {
+    padding: 20px;
+
+    width: 100%;
+    background-color: aqua;
+}
+
+#playlist-header h5 {
+    color: white;
+}
+
+#playlist-header span {
+    font-size: 50px;
+}
+
+#playlist-header p {
+    font-size: 10px;
+    font-weight: 700;
+}
+
 
 /* BODY */
 #body {
