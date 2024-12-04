@@ -22,6 +22,7 @@
     height: 100%;
     width: 200px;
     background-color: black;
+    z-index: 200;
 }
 
 /* BODY */
@@ -49,7 +50,7 @@
 
 #main-nav nav {
     width: 100%;
-    padding: 10px 20% 10px 20%;
+    padding: 10px 15% 10px 15%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -79,23 +80,69 @@
 /*************************************************
     MEDIUM VERSION
  *************************************************/
+@media screen and (max-width: 878px) {
+
+    /* MAIN CONTAINER */
+
+    /* SIDE NAV */
+
+    /* BODY */
+
+    /* upgrade banner */
+
+    /* main nav */
+
+    /* PLAYER */
+
+    #main-nav nav {
+        padding: 10px 5% 10px 5%;
+    }
+}
 
 
 /*************************************************
     SMALL VERSION
  *************************************************/
+@media screen and (max-width: 639px) {
+
+    /* MAIN CONTAINER */
+
+    /* SIDE NAV */
+
+    /* BODY */
+
+    /* upgrade banner */
+
+    /* main nav */
+
+    /* PLAYER */
+
+}
 
 
 /*************************************************
     MOBILE VERSION
  *************************************************/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 552px) {
+
+    /* MAIN CONTAINER */
+
+    /* SIDE NAV */
+    #side-nav {
+        width: 50px;
+    }
+
+    /* BODY */
     #body {
         width: calc(100% - 50px);
 
     }
 
-    #side-nav {
-        width: 50px;
-    }
+
+    /* upgrade banner */
+
+    /* main nav */
+
+    /* PLAYER */
+
 }
