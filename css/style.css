@@ -20,16 +20,52 @@
 /* SIDE NAV */
 #side-nav {
     height: 100%;
-    width: 250px;
+    width: 200px;
     background-color: black;
 }
 
 /* BODY */
 #body {
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     overflow: auto;
+}
+
+/* upgrade banner */
+#upgrade-banner {
+    height: 100px;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* main nav */
+#main-nav {
+    padding-top: 100px;
+}
+
+#main-nav nav {
+    width: 100%;
+    padding: 10px 20% 10px 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
     /* test */
-    background-color: aliceblue;
+    background-color: antiquewhite;
+
+}
+
+#main-nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #76797d;
+    font-size: 10px;
+    padding: 5px;
 }
 
 
@@ -37,4 +73,29 @@
 #player {
     height: 100px;
     background-color: #282828;
+}
+
+
+/*************************************************
+    MEDIUM VERSION
+ *************************************************/
+
+
+/*************************************************
+    SMALL VERSION
+ *************************************************/
+
+
+/*************************************************
+    MOBILE VERSION
+ *************************************************/
+@media screen and (max-width: 400px) {
+    #body {
+        width: calc(100% - 50px);
+
+    }
+
+    #side-nav {
+        width: 50px;
+    }
 }
