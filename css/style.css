@@ -17,6 +17,7 @@
     display: flex;
 }
 
+
 /* SIDE NAV */
 #side-nav {
     height: 100%;
@@ -26,13 +27,37 @@
 }
 
 /* full side nav */
+#full-logo img {
+    height: 80px;
+    padding: 20px;
+    display: block;
+}
 
+#fside-main-nav {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
 
+#fside-main-nav a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #76797d;
+    font-size: 10px;
+    padding: 5px;
+}
+
+#fside-main-nav img {
+    width: 30px;
+}
 
 /* mobile side nav */
 #mobile-side-nav {
     display: none;
 }
+
 
 /* BODY */
 #body {
