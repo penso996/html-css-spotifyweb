@@ -23,7 +23,6 @@ a {
 
 /* SIDE NAV */
 #side-nav {
-    height: calc(100vh - 100px);
     width: 200px;
     background-color: black;
     z-index: 200;
@@ -121,8 +120,6 @@ a {
     width: 100%;
 
     background-color: #a2ef2c;
-    height: 50px;
-
 }
 
 
@@ -143,7 +140,6 @@ a {
     left: 0;
     z-index: 100;
 }
-
 
 /* main nav */
 #main-nav {
