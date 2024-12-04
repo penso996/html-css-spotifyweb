@@ -2,8 +2,39 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
     font-family: "Montserrat", sans-serif;
+}
+
+
+/* ---MAIN CONTAINER--- */
+#main-container {
+    height: calc(100vh - 100px);
+    background-color: #141922;
+    display: flex;
+}
+
+/* SIDE NAV */
+#side-nav {
+    height: 100%;
+    width: 250px;
+    background-color: black;
+}
+
+/* BODY */
+#body {
+    width: calc(100% - 250px);
+    overflow: auto;
+    /* test */
+    background-color: aliceblue;
+}
+
+
+/* ---PLAYER--- */
+#player {
+    height: 100px;
+    background-color: #282828;
 }
