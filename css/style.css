@@ -9,6 +9,9 @@
     font-family: "Montserrat", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* ---MAIN CONTAINER--- */
 #main-container {
@@ -44,7 +47,6 @@
 }
 
 #side-main-nav a {
-    text-decoration: none;
     display: flex;
     align-items: center;
     font-weight: 700;
@@ -81,12 +83,16 @@
     margin-right: 10px;
 }
 
-#playlist-header p {
+#playlist-header a {
     display: flex;
     align-items: center;
     color: #76797d;
     font-size: 10px;
     font-weight: 700;
+}
+
+#playlist-header a:hover {
+    color: white;
 }
 
 
@@ -128,7 +134,6 @@
 }
 
 #main-nav a {
-    text-decoration: none;
     font-weight: 700;
     color: #76797d;
     font-size: 10px;
