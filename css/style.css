@@ -33,12 +33,16 @@
     display: block;
 }
 
-#fside-main-nav {
+#small-logo img {
+    display: none;
+}
+
+#side-main-nav {
     display: flex;
     flex-direction: column;
 }
 
-#fside-main-nav a {
+#side-main-nav a {
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -49,15 +53,15 @@
     padding: 5px 20px 5px 18px;
 }
 
-#fside-main-nav a:hover {
+#side-main-nav a:hover {
     color: white;
 }
 
-#fside-main-nav a:active {
+#side-main-nav a:active {
     border-left: 2px solid #a2ef2c;
 }
 
-#fside-main-nav img {
+#side-main-nav img {
     width: 25px;
     margin-right: 5px;
 }
@@ -169,12 +173,31 @@
     /* SIDE NAV */
     #side-nav {
         width: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #full-logo img {
+        display: none;
+    }
+
+    #small-logo img {
+        display: block;
+        width: 100%;
+        padding: 5px;
+    }
+
+    #side-main-nav a {
+        padding: 0;
+    }
+
+    #side-main-nav span {
+        display: none;
     }
 
     /* BODY */
     #body {
         width: calc(100% - 50px);
-
     }
 
     /* upgrade banner */
