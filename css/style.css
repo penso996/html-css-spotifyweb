@@ -29,7 +29,6 @@ a {
 #side-nav {
     width: 200px;
     background-color: black;
-    z-index: 200;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -170,10 +169,9 @@ a {
     height: 100px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
-    z-index: 100;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -200,9 +198,7 @@ a {
 }
 
 /* main nav */
-#main-nav {
-    padding-top: 100px;
-}
+#main-nav {}
 
 #main-nav nav {
     width: 100%;
@@ -235,6 +231,21 @@ a {
 
 #main-nav a:hover {
     opacity: 1;
+}
+
+
+/* MUSIC CONTAINER */
+#music-container {
+    background-color: #a2ef2c;
+    width: 100%;
+    padding: 10px;
+}
+
+.music-section {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
 }
 
 
