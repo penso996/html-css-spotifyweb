@@ -301,6 +301,10 @@ a {
         align-items: center;
     }
 
+    #side-nav-download {
+        margin-bottom: 15px;
+    }
+
     #bottom-side-nav span {
         display: none;
     }
