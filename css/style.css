@@ -169,12 +169,34 @@ a {
 #upgrade-banner {
     height: 100px;
     width: 100%;
-    opacity: 0.5;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#upgrade-banner-position {
+    width: 20%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#upgrade-banner a {
+    padding: 10px 25px 10px 25px;
+    border: solid white 1px;
+    border-radius: 30px;
+}
+
+#upgrade-banner a:hover {
+    font-size: 11px;
+    padding: 12px 27px 12px 27px;
+    border: solid white 1px;
+    border-radius: 30px;
 }
 
 /* main nav */
