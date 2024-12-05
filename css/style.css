@@ -93,7 +93,6 @@ a {
 #playlist-header a {
     display: flex;
     align-items: center;
-    color: white;
     opacity: 0.5;
 }
 
@@ -111,7 +110,6 @@ a {
 }
 
 #playlist-body a {
-    color: white;
     padding-bottom: 10px;
     opacity: 0.5;
 }
