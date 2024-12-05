@@ -31,6 +31,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 #top-side-nav {}
@@ -214,8 +215,6 @@ a {
 #player {
     height: 100px;
     background-color: #282828;
-    position: relative;
-    z-index: 1000;
 }
 
 
