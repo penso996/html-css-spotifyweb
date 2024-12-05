@@ -131,7 +131,9 @@ a {
     opacity: 1;
 }
 
-#nav-spacer {
+#side-nav-download::after {
+    content: "";
+    display: block;
     margin: 5px 0 10px 0;
     height: 1px;
     background-color: white;
