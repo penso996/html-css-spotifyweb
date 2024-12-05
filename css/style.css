@@ -422,4 +422,8 @@ a {
         width: calc(100% - 50px);
     }
 
+    #side-nav-download::after {
+        display: none;
+    }
+
 }
