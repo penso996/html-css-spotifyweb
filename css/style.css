@@ -131,6 +131,7 @@ a {
     opacity: 1;
 }
 
+/* spacer */
 #side-nav-download::after {
     content: "";
     display: block;
