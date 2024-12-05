@@ -11,6 +11,7 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 
@@ -124,15 +125,45 @@ a {
 }
 
 /* bottom side nav */
-#bottom-side-nav {}
+#bottom-side-nav {
+    padding: 0 20px 0 20px;
+}
 
-/* side nav footer */
-#side-nav-footer {
-    width: 100%;
+/* side nav download */
+#side-nav-download a {
+    opacity: 0.5;
+    font-size: 10px;
+    font-weight: 700;
+}
 
+#side-nav-download a:hover {
+    opacity: 1;
+}
 
-    height: 80px;
-    background-color: #a2ef2c;
+#nav-spacer {
+    margin: 5px 0 10px 0;
+    height: 1px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+/* side nav profile */
+#side-nav-profile {
+    display: flex;
+    align-items: center;
+}
+
+#side-nav-profile img {
+    height: 20px;
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+#side-nav-profile span {
+    padding-left: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
 }
 
 
@@ -274,6 +305,10 @@ a {
     }
 
     #playlist-body {
+        display: none;
+    }
+
+    #bottom-side-nav {
         display: none;
     }
 
