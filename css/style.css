@@ -303,20 +303,13 @@ a {
  *************************************************/
 @media screen and (max-width: 878px) {
 
-    /* ---MAIN CONTAINER--- */
-
-    /* SIDE NAV */
-
-    /* BODY */
-
-    /* upgrade banner */
-
-    /* main nav */
-
-    /* ---PLAYER--- */
-
     #main-nav nav {
         padding: 10px 5% 10px 5%;
+    }
+
+    .card {
+        width: calc(100%/4);
+        padding: 10px;
     }
 
 }
@@ -327,17 +320,10 @@ a {
  *************************************************/
 @media screen and (max-width: 639px) {
 
-    /* ---MAIN CONTAINER--- */
-
-    /* SIDE NAV */
-
-    /* BODY */
-
-    /* upgrade banner */
-
-    /* main nav */
-
-    /* ---PLAYER--- */
+    .card {
+        width: calc(100%/2);
+        padding: 10px;
+    }
 
 }
 
@@ -347,9 +333,6 @@ a {
  *************************************************/
 @media screen and (max-width: 552px) {
 
-    /* ---MAIN CONTAINER--- */
-
-    /* SIDE NAV */
     #side-nav {
         width: 50px;
         display: flex;
@@ -405,16 +388,8 @@ a {
         display: none;
     }
 
-
-    /* BODY */
     #body {
         width: calc(100% - 50px);
     }
-
-    /* upgrade banner */
-
-    /* main nav */
-
-    /* ---PLAYER--- */
 
 }
