@@ -274,6 +274,10 @@ a {
     margin-bottom: 10px;
 }
 
+.round {
+    border-radius: 50%;
+}
+
 .card h3 {
     color: white;
     font-size: 12px;
