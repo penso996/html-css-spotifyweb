@@ -267,11 +267,9 @@ a {
 .card {
     width: calc(100%/6);
     padding: 10px;
-
-    position: relative;
 }
 
-.card img {
+.card-hidden img {
     width: 100%;
     margin-bottom: 10px;
 }
@@ -280,13 +278,14 @@ a {
     border-radius: 50%;
 }
 
-.card img:hover {
-    opacity: 0.5;
+.card-hidden {
+    width: 100%;
+    position: relative;
 }
 
 .card-show {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
