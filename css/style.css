@@ -172,6 +172,7 @@ a {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -269,7 +270,7 @@ a {
     padding: 10px;
 }
 
-.card-hidden img {
+.card-img img {
     width: 100%;
     margin-bottom: 10px;
 }
@@ -278,24 +279,27 @@ a {
     border-radius: 50%;
 }
 
-.card-hidden {
-    width: 100%;
+.card-img {
     position: relative;
 }
 
 .card-show {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 50px;
-    font-weight: bold;
 }
 
+.card-img:hover .card-show {
+    display: block;
+}
 
-
-
+.card-img:hover img {
+    opacity: 0.5;
+}
 
 .card h3 {
     color: white;
