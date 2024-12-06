@@ -388,24 +388,37 @@ a {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #player-button-section {
     height: 50%;
-    width: 100%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background-color: #a2ef2c;
 }
 
 .player-button {
+    width: calc(100% / 5);
+    display: flex;
+    justify-content: center;
     color: white;
     font-size: 12px;
-    margin: 10px;
+}
+
+.player-button:hover {
+    font-size: 14px;
 }
 
 .button-play {
     font-size: 30px;
+}
+
+.button-play:hover {
+    font-size: 32px;
 }
 
 #main-player-time {
@@ -481,6 +494,10 @@ a {
         padding: 10px;
     }
 
+    #player-button-section {
+        width: 60%;
+    }
+
 }
 
 
@@ -506,6 +523,10 @@ a {
     #left-player-dx {
         flex-direction: column;
         justify-content: center;
+    }
+
+    #player-button-section {
+        width: 100%;
     }
 
 }
