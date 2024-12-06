@@ -427,6 +427,14 @@ a {
     justify-content: center;
 }
 
+#main-player-time span {
+    font-size: 8px;
+    color: white;
+    padding: 6px;
+    font-weight: 700;
+
+}
+
 #timeline {
     width: 80%;
     height: 2px;
