@@ -423,6 +423,17 @@ a {
     left: 0;
 }
 
+#total-volume:hover::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: calc(100% / 4);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
 
 /*************************************************
     MEDIUM VERSION
