@@ -390,14 +390,22 @@ a {
     flex-direction: column;
 }
 
-#main-player-buttons {
+#player-button-section {
     height: 50%;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
-    background-color: wheat;
+.player-button {
+    color: white;
+    font-size: 12px;
+    margin: 10px;
+}
+
+.button-play {
+    font-size: 30px;
 }
 
 #main-player-time {
