@@ -385,12 +385,24 @@ a {
 /* main player */
 #main-player {
     height: 100%;
-    width: 40%;
-
-    background-color: aqua;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
+#main-player-buttons {
+    height: 50%;
+    width: 100%;
 
+    background-color: wheat;
+}
+
+#main-player-time {
+    height: 50%;
+    width: 100%;
+
+    background-color: #a2ef2c;
+}
 
 /* right player */
 #right-player {
@@ -470,7 +482,11 @@ a {
 
     #left-player,
     #right-player {
-        width: 50%;
+        width: calc(100% / 3);
+    }
+
+    #main-player {
+        width: calc(100% / 3);
     }
 
     #left-player-dx {
