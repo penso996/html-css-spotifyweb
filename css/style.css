@@ -429,6 +429,13 @@ a {
     background-color: #a2ef2c;
 }
 
+#timeline {
+    width: 70%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: #808080;
+}
+
 /* right player */
 #right-player {
     height: 100%;
@@ -511,11 +518,11 @@ a {
 
     #left-player,
     #right-player {
-        width: calc(100% / 3);
+        width: 30%;
     }
 
     #main-player {
-        width: calc(100% / 3);
+        width: 40%;
     }
 
     #left-player-dx {
@@ -524,7 +531,7 @@ a {
     }
 
     #player-button-section {
-        width: 100%;
+        width: 80%;
     }
 
 }
@@ -596,6 +603,15 @@ a {
 
     #side-nav-download::after {
         display: none;
+    }
+
+    #left-player,
+    #right-player {
+        width: calc(100% / 3);
+    }
+
+    #main-player {
+        width: calc(100% / 3);
     }
 
 }
