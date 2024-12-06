@@ -423,6 +423,10 @@ a {
     left: 0;
 }
 
+#total-volume:hover #actual-volume {
+    background-color: #a2ef2c;
+}
+
 #total-volume:hover::after {
     content: '';
     position: absolute;
