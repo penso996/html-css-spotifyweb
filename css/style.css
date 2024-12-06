@@ -325,7 +325,12 @@ a {
 #player {
     height: 100px;
     background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
 
 
 /*************************************************
