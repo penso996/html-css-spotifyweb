@@ -330,8 +330,47 @@ a {
     justify-content: space-between;
 }
 
+/* side player */
+#left-player {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
+    background-color: #a2ef2c;
+}
 
+#now-playing-cover {
+    width: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#now-playing-cover img {
+    height: 40px;
+}
+
+/* main player */
+#main-player {
+    height: 100%;
+    width: 40%;
+
+    background-color: aqua;
+}
+
+/* right player */
+#right-player {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: lightgray;
+}
 
 /*************************************************
     MEDIUM VERSION
